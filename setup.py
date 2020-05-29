@@ -5,6 +5,9 @@ https://packaging.python.org/en/latest/distributing.html
 https://github.com/pypa/sampleproject
 """
 
+# Setup package for this sensor (based on this project) made by
+# m1ch3al (renato.sirola@gmail.com)
+
 # Always prefer setuptools over distutils
 from setuptools import setup, find_packages
 
@@ -16,8 +19,8 @@ setup(
     # The project's main homepage.
     #url="https://github.com/adafruit/Adafruit_CircuitPython_BME280",
     # Author details
-    author="Adafruit Industries",
-    #author_email="circuitpython@adafruit.com",
+    author="m1ch3al",
+    author_email="renato.sirola@gmail.com",
     install_requires=["smbus2"],
     # Choose your license
     license="MIT",
